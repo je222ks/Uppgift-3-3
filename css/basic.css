@@ -68,17 +68,17 @@ table {
 #menu { height: 50px; margin-top: 199px; background: #51473d; }
 
 #menu ul { float: left; padding-left: 10px; }
-#menu li { float: left; display: block; background: #797066; border-right: 1px transparent; border-top: 1px solid #847c73; height: 40px; margin-top: 9px;
- }
+#menu li { float: left; display: block; background: #797066; border-right: 1px #51473d; border-top: 1px solid #847c73; height: 30px; margin-top: 9px;
+margin-left: 1px; padding-left: 20px; padding-right: 20px; padding-top: 10px; }
 
 #content { width: 600px;  background: #eae7d2; border-top: 1px solid white; }
 
-#maincontent { width: 370px; float: left; }
+#maincontent { width: 360px; float: left; padding-left: 10px; }
 #maincontent img { float: left; padding-right: 10px; }
 
 #subcontent { width: 224px; float: left; border-left: 1px dashed #c0c0c0; padding-left: 5px; }
 
-#bottomcontent { width: 600px; height: 25px; float: left; }
+#bottomcontent { width: 600px; height: 25px; float: left; padding-left: 10px; }
 
 /* Typografi */
 
