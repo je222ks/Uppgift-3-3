@@ -61,19 +61,25 @@ table {
 
 /* Layout */
 
-#container { width: 600px; margin: 0 auto; background: #eae7d2 url(pics/coffey.jpg) no-repeat 0 20px; border: 1px solid #cecab9; }
+#container { width: 600px; height: 700px; margin: 0 auto; background: #eae7d2 url(pics/coffey.jpg) no-repeat 0 20px; border: 1px solid #cecab9; }
 
-#topbar { height: 20px; background: #51473d; }
+#topbar { height: 20px; background: #51473d; text-align: right; }
 
 #menu { height: 50px; margin-top: 199px; background: #51473d; }
 
-#content { width: 600px;  background: #eae7d2; }
+#menu ul { float: left; padding-left: 10px; }
+#menu li { float: left; display: block; background: #797066; border-right: 1px transparent; border-top: 1px solid #847c73; height: 40px; margin-top: 9px;
+ }
 
-#maincontent { width: 400px; float: left; }
+#content { width: 600px;  background: #eae7d2; border-top: 1px solid white; }
 
-#subcontent { width: 199px; float: left; border-left: 1px dashed #c0c0c0; }
+#maincontent { width: 370px; float: left; }
+#maincontent img { float: left; padding-right: 10px; }
 
-#bottomcontent { width: 600px; float: left; height: 30px; }
+#subcontent { width: 224px; float: left; border-left: 1px dashed #c0c0c0; padding-left: 5px; }
+
+#bottomcontent { width: 600px; height: 25px; float: left; }
 
 /* Typografi */
+
 
